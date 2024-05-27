@@ -16,7 +16,11 @@ app.get('/login',(req,res)=>{
     res.send('<h1> WelCome to My Page</h1>')
 })
 app.get('/instagram',(req,res)=>{
-    res.send("instagram")
+    const obj = {
+        username : "manish.sharma.52",
+        password : "*********"
+    }
+    res.send(obj)
 
 })
 
